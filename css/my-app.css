@@ -1,0 +1,84 @@
+.navbar {
+  height: 200px;
+  display: block;
+  width: 100%;
+  z-index: 2;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0 16px;
+  }
+.navbar-inner {
+  top: 0;
+  height: 56px;
+  position: absolute;
+}
+.page-content {
+  padding-top: 200px!important;
+}
+.bigTitle {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  padding: 145px 0px 21px 0px;
+  position: absolute;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 56px;
+  -webkit-flex-shrink: 10;
+  -ms-flex: 0 10 auto;
+  flex-shrink: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.slidingTitle {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0px 0px 21px 25px;
+  position: absolute;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 56px;
+  -webkit-flex-shrink: 10;
+  -ms-flex: 0 10 auto;
+  flex-shrink: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.smallTitle {
+  font-size: 20px!important;
+  font-weight: 500;
+  text-align: center;
+  padding: 0px 0px 21px 25px!important;
+  margin: 0 16px;
+  position: absolute;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 56px;
+  -webkit-flex-shrink: 10;
+  -ms-flex: 0 10 auto;
+  flex-shrink: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
