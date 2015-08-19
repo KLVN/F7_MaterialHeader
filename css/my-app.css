@@ -82,3 +82,9 @@
   -webkit-align-items: center;
   align-items: center;
 }
+.sliding-button {
+  position: absolute;
+  bottom: -28px;
+  right: 40px;
+  opacity: 1;
+}

@@ -30,6 +30,10 @@ function slideTitle() {
   titlepadding2 = -0.17*navheight+34.72;
   $$('.slidingTitle').css('padding', titlepadding1 + 'px 0px 0px '+titlepadding2+'px');
   
+  // floating button
+  buttonvisib = 0.02*navheight-1;
+  $$('.sliding-button').css('opacity', buttonvisib);
+  
   // different cases
   if (navheight >= 200) {
     $$('#title').addClass('bigTitle').removeClass('smallTitle slidingTitle');
@@ -37,6 +41,7 @@ function slideTitle() {
     $$('#title').addClass('slidingTitle').removeClass('smallTitle bigTitle');
   } else if (navheight < 56) {
     $$('.navbar').css('height', '56px');
+    $$('.sliding-button').css('height', '56px');
     $$('#title').addClass('smallTitle').removeClass('slidingTitle bigTitle');
   };
 };
