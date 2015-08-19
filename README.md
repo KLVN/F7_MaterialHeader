@@ -10,5 +10,7 @@ Clone this repo, swing your wand and do your magic and make pull requests ;)
 
 # ToDo
 - smooth the transition of title
+- add background image and parallax
+- work on Floating-Button
 - clean up code
 - get implemented in Framework7's core :P
